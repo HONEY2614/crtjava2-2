@@ -1,22 +1,29 @@
 import java.util.*;
 class Div
 {
+}
+{
 	public static void main(String[] args)
 	{
 		Scanner s=new Scanner(System.in);
-		int a,b,r;
+		int a,b;
 		System.out.println("Enter Two Nos");
 		a=s.nextInt();
 		b=s.nextInt();
-		if(b==0)
-	{
-			System.out.println("Second no cannot be zero");
-			b=1;
-	}
-	r=a/b;
-	System.out.println("Division="+r);
+		if(a>b)
+		{
+			System.out.println(a+"is Biggest);
+		}
+		else
+		{
+			System.out.println(b+"is the Biggest);
+		}
 	}
 }
+
+
+		
+
 
 
 
